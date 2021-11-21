@@ -1,6 +1,6 @@
 :root {
   --custom-bccolor: #fff;
-  --primary-background-color: grey;
+  --primary-background-color: #ad3e0a;
   --accent-color: #008080;
   --text-color: #212121;
   --hover-color: #ff6347;
@@ -212,6 +212,7 @@ img {
 }
 .project-list {
   list-style: none;
+  padding-left: 0;
 }
 .proj-item {
   display: flex;
@@ -240,6 +241,7 @@ img {
   font-weight: 700;
   font-size: 22px;
   line-height: 1.16;
+  margin-bottom: 5px;
 }
 .prof__place {
   color: var(--accent-color);
@@ -248,5 +250,7 @@ img {
   font-weight: 500;
   font-size: 18px;
   line-height: 1.17;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 /*# sourceMappingURL=main.min.css.map */
